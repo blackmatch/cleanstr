@@ -1,9 +1,13 @@
 language: node_js
 node_js:
-  - "4.0"
-  - "6.0"
-  - "7.0"
-  - "8.0"
+  - "latest"
+  - "stable"
+  - "lts"
+  - "7"
+  - "6"
+  - "4"
+  - "iojs"
+  - "0.12"
 
 after_success:
   - npm run coveralls
