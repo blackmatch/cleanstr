@@ -1,13 +1,9 @@
 language: node_js
 node_js:
-  - "latest"
   - "stable"
-  - "lts"
   - "7"
   - "6"
   - "4"
-  - "iojs"
-  - "0.12"
 
 after_success:
   - npm run coveralls
